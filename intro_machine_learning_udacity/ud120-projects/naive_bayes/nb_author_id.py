@@ -49,7 +49,6 @@ def predictNB(classifier, features_test):
 	prediction	= classifier.predict(features_test)
 	timeSpent 	= time() - startTime
 
-
 	return prediction, timeSpent
 
 classifier, timeClass 	= classifyNB(features_train, labels_train)
